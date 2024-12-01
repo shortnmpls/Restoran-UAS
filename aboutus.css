@@ -17,8 +17,9 @@ body {
 }
 
 /* Header */
-h1, h2 {
-    color: #dc3545; /* Bootstrap primary color */
+h1 {
+    margin-left: 100px;
+    margin-right: 100px
 }
 
 /* About Us Section */
@@ -28,6 +29,8 @@ h1, h2 {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px
 }
 
 /* Contact Us Section */
@@ -59,7 +62,7 @@ textarea {
 }
 
 button {
-    background-color: #dc3545; /* Bootstrap primary color */
+    background-color: #198754; /* Bootstrap success color */
     color: white;
     padding: 10px;
     border: none;
@@ -68,7 +71,7 @@ button {
 }
 
 button:hover {
-    background-color: #c82333; /* Darker shade on hover */
+    border-color: #157347; /* Darker border color on hover */
 }
 
 /* Footer */
