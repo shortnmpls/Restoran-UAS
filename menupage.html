@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="menupage.css">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Indonesian Restaurant</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="menupage.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="menu">
+        <h1>MENU YANG TERSEDIA</h1>
+    </div>
+
+    <div class="card-top">
+        <div class="card-group">
+            <div class="card">
+                <img src="img/gado.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gado-gado</h5>
+                    <p class="card-text">Gado-gado adalah makanan yang terdiri atas sayur-sayuran, kentang, tempe, tahu,
+                        telur
+                        rebus, dan lain-lain diberi bumbu sambal kacang dan sebagainya.</p>
+                    <button class="pesan" onclick="showAlert()">Pesan</button>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/nasi kuning.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nasi Kuning</h5>
+                    <p class="card-text">Nasi kuning adalah makanan khas Indonesia. Makanan ini terbuat dari beras yang
+                        dimasak
+                        bersama dengan kunyit serta santan dan rempah-rempah. Dengan ditambahkannya bumbu-bumbu dan
+                        santan,
+                        nasi
+                        kuning memiliki rasa yang lebih gurih daripada nasi putih.</p>
+                    <button class="pesan" onclick="showAlert()">Pesan</button>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/sate.jpg" class=" card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sate</h5>
+                    <p class="card-text">Sate adalah makanan yang terbuat
+                        dari daging yang dipotong kecil-kecil dan ditusuk sedemikian rupa dengan tusukan lidi tulang
+                        daun
+                        kelapa atau
+                        bambu, kemudian dipanggang menggunakan bara arang kayu.</p>
+                    <button class="pesan" onclick="showAlert()">Pesan</button>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-menu">
+        <div class="card-group">
+            <div class="card">
+                <img src="img/rendang.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rendang</h5>
+                    <p class="card-text">Rendang adalah hidangan berbahan dasar daging yang dihasilkan dari proses
+                        memasak suhu
+                        rendah dalam waktu lama dengan menggunakan aneka rempah-rempah dan santan.</p>
+                    <button class="pesan" onclick="showAlert()">Pesan</button>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/nasi goreng.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nasi Goreng</h5>
+                    <p class="card-text">Nasi goreng merupakan sajian nasi yang digoreng dalam sebuah wajan atau
+                        penggorengan yang menghasilkan cita rasa berbeda karena dicampur dengan bumbu-bumbu seperti
+                        garam, bawang putih, bawang merah, merica, rempah-rempah tertentu dan kecap manis.</p>
+                    <button class="pesan" onclick="showAlert()">Pesan</button>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/tempe.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tempe</h5>
+                    <p class="card-text">Tempe adalah makanan khas Indonesia yang terbuat dari fermentasi kedelai atau
+                        beberapa bahan lain yang menggunakan beberapa jenis kapang Rhizopus, seperti Rhizopus
+                        oligosporus, Rh. oryzae, Rh. stolonifer (kapang roti), atau Rh. arrhizus.</p>
+                    <button class="pesan" onclick="showAlert()">Pesan</button>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-bottom">
+        <div class="card-group">
+            <div class="card">
+                <img src="img/bakso.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bakso</h5>
+                    <p class="card-text">Bakso adalah makanan olahan daging yang terbuat dari daging giling, tepung, dan
+                        bumbu-bumbu, lalu dibentuk menjadi bola-bola dan direbus.</p>
+                    <button class="pesan" onclick="showAlert()">Pesan</button>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/pempek.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pempek</h5>
+                    <p class="card-text">adalah makanan khas Palembang, Sumatera Selatan. Proses pembuatannya yakni
+                        dibuat dari daging ikan Tenggiri bisa juga ikan gabus yang digiling lembut, dicampur tepung
+                        kanji atau tepung sagu. Pempek biasanya disajikan dengan kuah yang disebut
+                        cuko yang memiliki rasa asam, manis, dan pedas.</p>
+                    <button class="pesan" onclick="showAlert()">Pesan</button>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/batagor.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Batagor</h5>
+                    <p class="card-text">Batagor dibuat dari tahu yang dilembutkan dan diisi dengan adonan berbahan ikan
+                        tenggiri dan tepung tapioka lalu dibentuk menyerupai bola yang digoreng dalam minyak panas
+                        selama beberapa menit hingga matang. Variasi lainnya yaitu siomay, digoreng dan dihidangkan
+                        bersama batagor dan dikombinasikan dengan bumbu kacang, kecap manis, sambal, dan air perasan
+                        jeruk nipis sebagai pelengkap.</p>
+                    <button class="pesan" onclick="showAlert()">Pesan</button>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="done">
+        <button type="button" class="btn btn-success btn-lg" onclick="showAlert()">Selesaikan pesanan</button>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Restoran Indonesia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="menupage.js"></script>
+</body>
+
+</html>

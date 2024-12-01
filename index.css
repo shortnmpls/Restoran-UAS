@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: ghostwhite;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+}
+
+.carousel img {
+    max-width: 100%;
+    /* Set the maximum width you want */
+    height: 600px;
+    /* Maintain aspect ratio */
+    margin: auto;
+    /* Center the image */
+}
+
+.carousel-item.active img {
+    filter: blur(10);
+    /* Remove blur for the active image */
+}
+
+.midcard {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    /* Full viewport height */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.carousel-item {
+    position: relative;
+    /* Position relative for the overlay */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background with opacity */
+    z-index: 1; /* Ensure overlay is above the image */
+}
+
+.carousel-caption {
+    position: absolute; /* Position absolute to overlay on the image */
+    top: 40%; /* Center vertically */
+    color: white; /* Change text color for visibility */
+    text-align: center; /* Center text */
+    z-index: 2; /* Ensure caption is above the overlay */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(33, 37, 41);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-group {
+    /* margin: 100px; */
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card-group img {
+    height: 250px;
+}
