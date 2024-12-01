@@ -15,7 +15,7 @@ body {
 }
 
 .card-top {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -57,7 +57,7 @@ small{
 }
 
 .pesan {
-    background-color: #dc3545; /* Bootstrap primary color */
+    background-color: #198754; /* Bootstrap success color */
     color: white;
     padding: 10px;
     border: none;
@@ -66,9 +66,8 @@ small{
 }
 
 .pesan:hover {
-    background-color: #c82333; /* Darker shade on hover */
+    background-color: #157347; /* Darker success color on hover */
 }
-
 
 footer {
     text-align: center;
