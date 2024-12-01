@@ -28,10 +28,10 @@ body {
     /* Center horizontally */
     align-items: center;
     /* Center vertically */
-    height: 100vh;
+    height: 70vh;
     /* Full viewport height */
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .carousel-item {
@@ -76,4 +76,10 @@ footer {
 
 .card-group img {
     height: 250px;
+}
+
+.populer {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
 }
